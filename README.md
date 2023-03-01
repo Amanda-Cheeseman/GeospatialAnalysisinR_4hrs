@@ -27,7 +27,7 @@ To Begin:
 2.	Create a folder on your computer for the workshop called "Geospatial_Analysis_in_R" 
 3.	Place the contents of the below folder directly in the folder you just created. name. 
 	This contains all workshop material and the preworkshop steps you will need below! 
-	https://sdsu.box.com/shared/static/4ao8ob1mql7wty35hgbfaqistxwe9nka.zip 
+	https://sdsu.box.com/s/0vh4tvty4f6g2uv49p3nv1x7uom9czha 
 4.	Open RStudio, go to File-->Open File, and navigate to the directory you just created, the folder 
 	called “PreWorkshop Steps”, and the R code called "PreWorkshop_Steps." Open it in R Studio. 
 5.	Change the directory in line 3 to where the folder is on your computer. Be mindful that R wants 
