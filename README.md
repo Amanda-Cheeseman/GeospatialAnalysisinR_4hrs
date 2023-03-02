@@ -25,12 +25,12 @@ To Begin:
 	#Note: you may wish to copy and update packages with the new R version- there will be a pop up for this
 
 2.	Create a folder on your computer for the workshop called "Geospatial_Analysis_in_R" 
-3.	Place the contents of the below folder directly in the folder you just created. name. 
+3.	Place the contents of the below folder directly in the folder you just created.
 	This contains all workshop material and the preworkshop steps you will need below! 
 	https://sdsu.box.com/s/0vh4tvty4f6g2uv49p3nv1x7uom9czha 
 4.	Open RStudio, go to File-->Open File, and navigate to the directory you just created, the folder 
 	called “PreWorkshop Steps”, and the R code called "PreWorkshop_Steps." Open it in R Studio. 
-5.	Change the directory in line 3 to where the folder is on your computer. Be mindful that R wants 
+5.	Change the directory in line 3 to where the Geospatial_Analysis_in_R folder is on your computer. Be mindful that R wants 
 	single forward slashes in the directory name rather than single backslashes. 
 6.	Run the code by selecting all the text and running it (ctrl+enter). It is important that the 
 	lines are run in order. The code will install & load all libraries needed for the workshop, 

@@ -1,8 +1,10 @@
 #First we will set our working directory
 #don't forget to keep the / syntax in the directory location (\ does not work)
-setwd("C:/Users/amanda.cheeseman/Box/Workshops/SDTWS_2023/Geospatial_Analysis_in_R/PreWorkshop Steps") 
-      #CHANGE DIRECTORY TO WHERE YOUR "Geospatial_Analysis_in_R" FOLDER IS
-      #Hint you can find the directory in file explorer and copy/paste #Let's run through some steps to make sure we are good to go for the workshop
+setwd("D:/My Drive/Synced Desktop/SDSU/Workshops Taught/GeospatialAnalysisinR_4hrs_2023")
+#CHANGE DIRECTORY TO WHERE YOUR "Geospatial_Analysis_in_R" FOLDER IS
+      #Hint you can find the directory in file explorer and copy/paste 
+
+#Let's run through some steps to make sure we are good to go for the workshop
 
 #Now, let's install some packages
 
@@ -27,7 +29,7 @@ library(sf)
 #we are ALL GOOD on packages if you do not get any error messages after running these "library" lines
 
 #and then read in two types of geospatial data
-elev <- rast("aster_image_20160624.tif")
-honduras_boundary <- vect("Honduras_Border.shp")
+elev <- rast("PreWorkShop Steps/aster_image_20160624.tif")
+honduras_boundary <- vect("PreWorkShop Steps/Honduras_Border.shp")
 
 #if no errors, then WHOOO HOOO! WE'RE DONE!
